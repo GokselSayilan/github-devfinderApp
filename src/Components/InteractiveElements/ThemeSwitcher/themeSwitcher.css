@@ -1,0 +1,25 @@
+.themeSwitcher {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    height: 20px;
+    justify-content: space-between;
+}
+
+.switcherText {
+    text-transform: uppercase;
+    font-family: Space Mono;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+
+.sunHover {
+    color: #90A4D4;
+
+}
+
+.moonHover {
+    color: #222731;
+}

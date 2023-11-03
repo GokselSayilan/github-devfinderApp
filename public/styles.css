@@ -1,0 +1,192 @@
+/* reset defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    --primaryFont: 'Space Mono', monospace;
+    /* light theme color */
+    --skyBlue: #0079FF;
+    --greyishBlue: #697C9A;
+    --queenBlue: #4B6A9B;
+    --gunmetal: #2B3442;
+    --ghostWhite: #F6F8FF;
+    --romance: #FEFEFE;
+    /* dark theme color */
+    --white: #FFF;
+    --darkGunmetal: #141D2F;
+    --yankeesBlue: #1E2A47;
+    /* hover color */
+    --crystalBlue: #60ABFF;
+}
+
+/* typography */
+
+.heading1,
+.heading2,
+.heading3,
+.heading4,
+.bodyText {
+    font-family: var(--primaryFont);
+}
+
+@media (500px < width) {
+    .heading1 {
+        font-size: 26px;
+        line-height: 38px;
+        font-weight: bold;
+    }
+    
+    .heading2 {
+        font-size: 22px;
+        line-height: 33px;
+        font-weight: bold;
+    }
+    
+    .heading3 {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    
+    .heading4 {
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    
+    .bodyText {
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 400;
+    }
+}
+
+@media (width <= 500px) {
+    .heading1 {
+        font-size: 16px;
+        line-height: 38px;
+        font-weight: bold;
+    }
+    
+    .heading2 {
+        font-size: 16px;
+        line-height: 33px;
+        font-weight: bold;
+    }
+    
+    .heading3 {
+        font-size: 13px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    
+    .heading4 {
+        font-size: 11px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    
+    .bodyText {
+        font-size: 13px;
+        line-height: 25px;
+        font-weight: 400;
+    }
+}
+
+
+
+.regularWeight {
+    font-weight: 400;
+}
+
+.boldWeight {
+    font-weight: 700;
+}
+
+
+/* text-color */
+
+.skyBlueText {
+    color: var(--skyBlue);
+}
+
+.greyishBlueText {
+    color: var(--greyishBlue);
+}
+
+.queenBlueText {
+    color: var(--queenBlue);
+}
+
+.gunmetalText {
+    color: var(--gunmetal);
+}
+
+.ghostWhiteText {
+    color: var(--ghostWhite);
+}
+
+.romanceText {
+    color: var(--romance);
+}
+
+.whiteText {
+    color: var(--white);
+}
+
+.darkGunmetalText {
+    color: var(--darkGunmetal);
+}
+
+.yankeesBlueText {
+    color: var(--yankeesBlue);
+}
+
+.crystalBlueText {
+    color: var(--crystalBlue);
+}
+
+/* bg-color */
+
+.skyBlueBg {
+    background-color: var(--skyBlue);
+}
+
+.greyishBlueBg {
+    background-color: var(--greyishBlue);
+}
+
+.queenBlueBg {
+    background-color: var(--queenBlue);
+}
+
+.gunmetalBg {
+    background-color: var(--gunmetal);
+}
+
+.ghostWhiteBg {
+    background-color: var(--ghostWhite);
+}
+
+.romanceBg {
+    background-color: var(--romance);
+}
+
+.whiteBg {
+    background-color: var(--white);
+}
+
+.darkGunmetalBg {
+    background-color: var(--darkGunmetal);
+}
+
+.yankeesBlueBg {
+    background-color: var(--yankeesBlue);
+}
+
+.crystalBlueBg {
+    background-color: var(--crystalBlue);
+}
