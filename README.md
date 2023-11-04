@@ -4,7 +4,7 @@ This is a compact web application that allows you to search for GitHub users and
 
 ## Live Demo
 
-You can try the app live by visiting [Live Demo](https://github-devfinder-focuscode.vercel.app). (Replace with your actual live URL)
+You can try the app live by visiting [Live Demo](https://github-devfinder-focuscode.vercel.app).
 
 ![App Screenshot](public/screenshot.png)
 
